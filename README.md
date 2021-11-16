@@ -1,70 +1,65 @@
-# Unit 18 PWA Homework: Online/Offline Budget Trackers
+# Fitness Tracker
 
-Add functionality to our existing Budget Tracker application to allow for offline access and functionality.
-
-The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
-
-Offline Functionality:
-
-  * Enter deposits offline
-
-  * Enter expenses offline
-
-When brought back online:
-
-  * Offline entries should be added to tracker.
-
-## User Story
-AS AN avid traveller
-I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
-SO THAT my account balance is accurate when I am traveling
-
-## Business Context
-
-Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-gist">About The Application</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#links">Links</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
+  </ol>
+</details>
 
 
-## Acceptance Criteria
-GIVEN a user is on Budget App without an internet connection
-WHEN the user inputs a withdrawal or deposit
-THEN that will be shown on the page, and added to their transaction history when their connection is back online.
+<img src="./public/assets/webpage.png" alt="Fitness Tracker Webpage">
 
-- - -
 
-## Commit Early and Often
+<!-- ABOUT THE GIST -->
+## About The Gist
 
-* One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+For this assignment, I was tasked to create a fitness tracker application with some starter code. The user can create a new workout or add onto a previous workout and add a workout to it. There are colorful graphs that are interactive to give the user the ultimate experience. It required me to do some research but ultimately was interesting to learn and tested my previous knowledge!
 
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
+The websites I used to help create this application are listed below in the <a href="#acknowledgements">acknowledgements</a>.
 
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
+### Built With
 
-* Follow these guidelines for committing:
+I used <a href="https://code.visualstudio.com/">Visual Studio Code</a> to write the code for this application!
 
-  * Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
 
-  * Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
+<!-- LICENSE -->
+## License
 
-  * Don't commit half done work, for the sake of your collaborators (and your future self!)
+Distributed under the MIT License. See `LICENSE` for more information.
 
-  * Test your application before you commit to ensure functionality at every step in the development process
 
-* We would like you to have well over 200 commits by graduation, so commit early and often!
+<!-- CONTACT -->
+## Contact
 
-* Deploy your application with [Heroku and MongoDB Atlas.](../04-Important/MongoAtlas-Deploy.md)
+Sami Khawja: Skhawja11@gmail.com
 
-## Submission on BCS
 
-* You are required to submit the following:
+## Links
 
-  * the URL to the deployed application
+Repo Link: [GitHub](https://github.com/samikhawja/fitness_tracker/)
 
-  * the URL to the Github repository
+Live Link: [Heroku](https://immense-temple-56938.herokuapp.com/)
 
-- - -
 
-## Hint
 
-* In order to cache dynamic content, i.e. users' inputs for withdrawals or deposits, incorporate `indexedDB` from the previous module.
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
 
-* Use [Google](https://www.google.com) or another search engine to research this topic.
+* [W3Schools](https://www.w3schools.com/)
+* [StackOverflow](https://stackoverflow.com/)
+* [Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* [Node.js](https://nodejs.com/)
+* [Express.js](https://expressjs.com/)
+* [npm](https://npm.com/)
+* [MongoDB](https://mongodb.com/)
