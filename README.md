@@ -1,4 +1,4 @@
-# Fitness Tracker
+# Progressive Budget Tracker
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
@@ -18,13 +18,13 @@
 </details>
 
 
-<img src="./public/assets/webpage.png" alt="Fitness Tracker Webpage">
+<img src="./public/images/webpage.png" alt="Progressive Budget Tracker Webpage">
 
 
 <!-- ABOUT THE GIST -->
 ## About The Gist
 
-For this assignment, I was tasked to create a fitness tracker application with some starter code. The user can create a new workout or add onto a previous workout and add a workout to it. There are colorful graphs that are interactive to give the user the ultimate experience. It required me to do some research but ultimately was interesting to learn and tested my previous knowledge!
+For this assignment, I was tasked to create a progressive budget tracker application with some starter code. The user can create a new workout or add onto a previous workout and add a workout to it. There are colorful graphs that are interactive to give the user the ultimate experience. It required me to do some research but ultimately was interesting to learn and tested my previous knowledge!
 
 The websites I used to help create this application are listed below in the <a href="#acknowledgements">acknowledgements</a>.
 
@@ -47,7 +47,7 @@ Sami Khawja: Skhawja11@gmail.com
 
 ## Links
 
-Repo Link: [GitHub](https://github.com/samikhawja/fitness_tracker/)
+Repo Link: [GitHub](https://github.com/samikhawja/progressive_budget/)
 
 Live Link: [Heroku](https://immense-temple-56938.herokuapp.com/)
 
