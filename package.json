@@ -15,9 +15,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/coding-boot-camp/unit18hw/issues"
+    "url": "https://github.com/samikhawja/progressive_budget"
   },
-  "homepage": "https://github.com/coding-boot-camp/unit18hw#readme",
+  "homepage": "https://young-bastion-42162.herokuapp.com/",
   "dependencies": {
     "compression": "^1.7.4",
     "express": "^4.17.1",
