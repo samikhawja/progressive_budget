@@ -17,8 +17,25 @@ request.onsuccess = ({ target }) => {
     }
 }
 
+const transaction = db.transaction(["pending"], "readwrite");
+const store = transaction.objectStore("pending");
+
 const saveTransaction = () => {
-    const transaction = db.transaction(["pending"], "readwrite");
-    const store = transaction.objectStore("pending");
-    store.add()
+    store.add();
 }
+
+const checkDb = (('/',  async (req, res) => {
+    const getAll = store.getAll();
+
+    getAll.onsuccess = async () => {
+        try {
+            const response = await fetch("/api/transaction/bulk");
+            res.status(200).json(response);
+            store.clear();
+        } catch (err) {
+            res.status(500).json(err);
+        }
+    }
+}))
+
+window.addEventListener("online", checkDb);
