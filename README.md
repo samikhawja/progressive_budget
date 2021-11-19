@@ -24,7 +24,7 @@
 <!-- ABOUT THE GIST -->
 ## About The Gist
 
-For this assignment, I was tasked to create a progressive budget tracker application with some starter code. The user can create a new workout or add onto a previous workout and add a workout to it. There are colorful graphs that are interactive to give the user the ultimate experience. It required me to do some research but ultimately was interesting to learn and tested my previous knowledge!
+For this assignment, I was tasked to create a progressive budget tracker application with some starter code. The user can input the name of the transaction as well as the amount then either add or subtract from the balance. There is a colorful graph that is interactive to give the user the ultimate experience. It required me to do some research but ultimately was interesting to learn and tested my previous knowledge!
 
 The websites I used to help create this application are listed below in the <a href="#acknowledgements">acknowledgements</a>.
 
